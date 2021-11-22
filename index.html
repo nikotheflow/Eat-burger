@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-212861464-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-212861464-1');
+	</script>
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+		(function (m, e, t, r, i, k, a) {
+			m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+			m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+		})
+			(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+		ym(86474052, "init", {
+			clickmap: true,
+			trackLinks: true,
+			accurateTrackBounce: true,
+			webvisor: true
+		});
+	</script>
+	<noscript>
+		<div><img src="https://mc.yandex.ru/watch/86474052" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript>
+	<!-- /Yandex.Metrika counter -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-07TLWJ5S3C"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-07TLWJ5S3C');
+	</script>
+	<title>Burger</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles/app.css">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="true" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<div class="burger__head">
+				<div class="head__title">С чем хотите бургер?</div>
+				<button class="reset-button button">Очень, дайте еще!</button>
+			</div>
+			<div class="burger__body">
+				<div class="create-burger">
+					<div class="checkboxes">
+						<label class="container">Салат
+							<input type="checkbox" name="ingredients" value="1" class="ingredients">
+							<span class="checkmark"></span>
+						</label>
+						<label class="container">Огурцы
+							<input type="checkbox" name="ingredients" value="2" class="ingredients">
+							<span class="checkmark"></span>
+						</label>
+						<label class="container">Котлета
+							<input type="checkbox" name="ingredients" value="3" class="ingredients">
+							<span class="checkmark"></span>
+						</label>
+						<label class="container">Сыр
+							<input type="checkbox" name="ingredients" value="4" class="ingredients">
+							<span class="checkmark"></span>
+						</label>
+						<label class="container">Помидоры
+							<input type="checkbox" name="ingredients" value="5" class="ingredients">
+							<span class="checkmark"></span>
+						</label>
+						<label class="container">Лук
+							<input type="checkbox" name="ingredients" value="6" class="ingredients"
+								onclick="ym(86474052,'reachGoal','checkbox')">
+							<span class="checkmark"></span>
+						</label>
+					</div>
+					<div class="result">
+						<img class="ingredient-image ingredient-image_on" name=" bread-up" src="img\bread-up.png" alt="bread-up">
+						<img class="ingredient-image" name="salad" src="img\salad.png" alt="salad">
+						<img class="ingredient-image" name="pickles" src="img\pickles.png" alt="pickles">
+						<img class="ingredient-image" name="meat" src="img\meat.png" alt="meat">
+						<img class="ingredient-image" name="cheese" src="img\cheese.png" alt="cheese">
+						<img class="ingredient-image" name="tomatoes" src="img\tomatoes.png" alt="tomatoes">
+						<img class="ingredient-image" name="onion" src="img\onion.png" alt="onion">
+						<img class="ingredient-image ingredient-image_on" name="bread-down" src="img\bread-down.png"
+							alt="bread-down">
+					</div>
+				</div>
+				<button class="eat-button button" onmouseover="gtag('event','button_hover')">*съесть бургер*</button>
+			</div>
+
+		</main>
+	</div>
+	<script type="text/javascript" src="scripts/app.js"></script>
+	</script>
+</body>
+
+</html>
